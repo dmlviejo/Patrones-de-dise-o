@@ -1,0 +1,11 @@
+# PynSource Version 1.2
+{'type':'meta', 'info1':'Lorem ipsum dolor sit amet, consectetur adipiscing elit is latin. Comments are saved.'}
+{'type':'umlshape', 'id':'persona', 'x':143, 'y':10, 'width':80, 'height':28, 'attrs': '', 'meths': ''}
+{'type':'umlshape', 'id':'Despertar', 'x':468, 'y':15, 'width':100, 'height':28, 'attrs': '', 'meths': ''}
+{'type':'umlshape', 'id':'Juanito', 'x':492, 'y':207, 'width':82, 'height':106, 'attrs': 'despertar|trabajar', 'meths': '__init__'}
+{'type':'umlshape', 'id':'iraTrabajo', 'x':133, 'y':211, 'width':110, 'height':106, 'attrs': 'ir', 'meths': 'noire|ire'}
+{'type':'edge', 'id':'Despertar_to_persona', 'source':'Despertar', 'target':'persona', 'uml_edge_type': 'generalisation'}
+{'type':'edge', 'id':'Juanito_to_persona', 'source':'Juanito', 'target':'persona', 'uml_edge_type': 'generalisation'}
+{'type':'edge', 'id':'iraTrabajo_to_persona', 'source':'iraTrabajo', 'target':'persona', 'uml_edge_type': 'generalisation'}
+{'type':'edge', 'id':'Despertar_to_Juanito', 'source':'Despertar', 'target':'Juanito', 'uml_edge_type': 'composition'}
+{'type':'edge', 'id':'iraTrabajo_to_Juanito', 'source':'iraTrabajo', 'target':'Juanito', 'uml_edge_type': 'composition'}

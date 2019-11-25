@@ -1,0 +1,16 @@
+# PynSource Version 1.2
+{'type':'meta', 'info1':'Lorem ipsum dolor sit amet, consectetur adipiscing elit is latin. Comments are saved.'}
+{'type':'umlshape', 'id':'usuario', 'x':63, 'y':57, 'width':80, 'height':28, 'attrs': '', 'meths': ''}
+{'type':'umlshape', 'id':'Gon_Freecss', 'x':133, 'y':145, 'width':120, 'height':138, 'attrs': '__class__|name|allowed', 'meths': 'switch|__str__'}
+{'type':'umlshape', 'id':'Ren', 'x':10, 'y':233, 'width':66, 'height':80, 'attrs': 'name|allowed', 'meths': ''}
+{'type':'umlshape', 'id':'Hatsu', 'x':386, 'y':140, 'width':66, 'height':80, 'attrs': 'name|allowed', 'meths': ''}
+{'type':'umlshape', 'id':'Zetsu', 'x':158, 'y':333, 'width':66, 'height':80, 'attrs': 'name|allowed', 'meths': ''}
+{'type':'umlshape', 'id':'Ten', 'x':343, 'y':273, 'width':66, 'height':80, 'attrs': 'name|allowed', 'meths': ''}
+{'type':'umlshape', 'id':'Nen', 'x':224, 'y':1, 'width':74, 'height':122, 'attrs': 'state|model', 'meths': 'change|__init__'}
+{'type':'edge', 'id':'Ren_to_Gon_Freecss', 'source':'Ren', 'target':'Gon_Freecss', 'uml_edge_type': 'generalisation'}
+{'type':'edge', 'id':'Zetsu_to_Gon_Freecss', 'source':'Zetsu', 'target':'Gon_Freecss', 'uml_edge_type': 'generalisation'}
+{'type':'edge', 'id':'Hatsu_to_Gon_Freecss', 'source':'Hatsu', 'target':'Gon_Freecss', 'uml_edge_type': 'generalisation'}
+{'type':'edge', 'id':'Ten_to_Gon_Freecss', 'source':'Ten', 'target':'Gon_Freecss', 'uml_edge_type': 'generalisation'}
+{'type':'edge', 'id':'Gon_Freecss_to_usuario', 'source':'Gon_Freecss', 'target':'usuario', 'uml_edge_type': 'generalisation'}
+{'type':'edge', 'id':'Nen_to_usuario', 'source':'Nen', 'target':'usuario', 'uml_edge_type': 'generalisation'}
+{'type':'edge', 'id':'Hatsu_to_Nen', 'source':'Hatsu', 'target':'Nen', 'uml_edge_type': 'composition'}

@@ -1,0 +1,10 @@
+# PynSource Version 1.2
+{'type':'meta', 'info1':'Lorem ipsum dolor sit amet, consectetur adipiscing elit is latin. Comments are saved.'}
+{'type':'umlshape', 'id':'Guerrero', 'x':33, 'y':57, 'width':90, 'height':28, 'attrs': '', 'meths': ''}
+{'type':'umlshape', 'id':'Inicio', 'x':298, 'y':67, 'width':74, 'height':138, 'attrs': '_state', 'meths': 'perder|fusionar|estado|__init__'}
+{'type':'umlshape', 'id':'fusion', 'x':47, 'y':173, 'width':70, 'height':28, 'attrs': '', 'meths': ''}
+{'type':'umlshape', 'id':'Tiempo', 'x':40, 'y':330, 'width':82, 'height':106, 'attrs': '_state', 'meths': 'get_state|__init__'}
+{'type':'umlshape', 'id':'Regreso', 'x':419, 'y':71, 'width':122, 'height':138, 'attrs': '_inicio|_Desfusionarse', 'meths': 'backup|__init__|undo'}
+{'type':'edge', 'id':'fusion_to_Guerrero', 'source':'fusion', 'target':'Guerrero', 'uml_edge_type': 'generalisation'}
+{'type':'edge', 'id':'Tiempo_to_fusion', 'source':'Tiempo', 'target':'fusion', 'uml_edge_type': 'generalisation'}
+{'type':'edge', 'id':'Inicio_to_Regreso', 'source':'Inicio', 'target':'Regreso', 'uml_edge_type': 'composition'}

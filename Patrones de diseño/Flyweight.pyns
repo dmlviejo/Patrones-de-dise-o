@@ -1,0 +1,7 @@
+# PynSource Version 1.2
+{'type':'meta', 'info1':'Lorem ipsum dolor sit amet, consectetur adipiscing elit is latin. Comments are saved.'}
+{'type':'umlshape', 'id':'nivel', 'x':215, 'y':64, 'width':60, 'height':28, 'attrs': '', 'meths': ''}
+{'type':'umlshape', 'id':'Piso', 'x':348, 'y':34, 'width':74, 'height':80, 'attrs': '', 'meths': 'codigo|__init__'}
+{'type':'umlshape', 'id':'Material', 'x':9, 'y':9, 'width':138, 'height':138, 'attrs': 'textu|codetic_info', 'meths': 'get_textura_info|set_textura_info|__new__'}
+{'type':'edge', 'id':'Piso_to_nivel', 'source':'Piso', 'target':'nivel', 'uml_edge_type': 'generalisation'}
+{'type':'edge', 'id':'Material_to_nivel', 'source':'Material', 'target':'nivel', 'uml_edge_type': 'generalisation'}

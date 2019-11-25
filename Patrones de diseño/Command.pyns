@@ -1,0 +1,18 @@
+# PynSource Version 1.2
+{'type':'meta', 'info1':'Lorem ipsum dolor sit amet, consectetur adipiscing elit is latin. Comments are saved.'}
+{'type':'umlshape', 'id':'Play', 'x':183, 'y':166, 'width':50, 'height':28, 'attrs': '', 'meths': ''}
+{'type':'umlshape', 'id':'New_game', 'x':10, 'y':75, 'width':90, 'height':106, 'attrs': 'pl', 'meths': '__init__|execute'}
+{'type':'umlshape', 'id':'Continue', 'x':163, 'y':10, 'width':90, 'height':106, 'attrs': 'pl', 'meths': '__init__|execute'}
+{'type':'umlshape', 'id':'Options', 'x':53, 'y':231, 'width':80, 'height':106, 'attrs': 'pl', 'meths': '__init__|execute'}
+{'type':'umlshape', 'id':'Exit', 'x':343, 'y':6, 'width':74, 'height':106, 'attrs': 'pl', 'meths': '__init__|execute'}
+{'type':'umlshape', 'id':'Start', 'x':286, 'y':333, 'width':74, 'height':112, 'attrs': '', 'meths': 'New_game|Continue|Options|Exit'}
+{'type':'umlshape', 'id':'shop', 'x':329, 'y':162, 'width':98, 'height':106, 'attrs': '_playQeueue', 'meths': 'requestPlay|__init__'}
+{'type':'edge', 'id':'Continue_to_Play', 'source':'Continue', 'target':'Play', 'uml_edge_type': 'generalisation'}
+{'type':'edge', 'id':'Exit_to_Play', 'source':'Exit', 'target':'Play', 'uml_edge_type': 'generalisation'}
+{'type':'edge', 'id':'New_game_to_Play', 'source':'New_game', 'target':'Play', 'uml_edge_type': 'generalisation'}
+{'type':'edge', 'id':'Options_to_Play', 'source':'Options', 'target':'Play', 'uml_edge_type': 'generalisation'}
+{'type':'edge', 'id':'Play_to_Options', 'source':'Play', 'target':'Options', 'uml_edge_type': 'composition'}
+{'type':'edge', 'id':'Play_to_Exit', 'source':'Play', 'target':'Exit', 'uml_edge_type': 'composition'}
+{'type':'edge', 'id':'Play_to_New_game', 'source':'Play', 'target':'New_game', 'uml_edge_type': 'composition'}
+{'type':'edge', 'id':'Play_to_shop', 'source':'Play', 'target':'shop', 'uml_edge_type': 'composition'}
+{'type':'edge', 'id':'Play_to_Continue', 'source':'Play', 'target':'Continue', 'uml_edge_type': 'composition'}
